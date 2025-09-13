@@ -1,0 +1,4 @@
+ALTER TABLE minions_info
+ADD COLUMN code CHAR(30),
+ADD COLUMN task TEXT,
+ADD COLUMN salary NUMERIC(8, 3)
